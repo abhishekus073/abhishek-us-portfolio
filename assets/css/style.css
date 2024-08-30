@@ -1,14 +1,3 @@
-/**
-* Template Name: iPortfolio
-* Template URL: https://bootstrapmade.com/iportfolio-bootstrap-portfolio-websites-template/
-* Updated: Mar 17 2024 with Bootstrap v5.3.3
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-/*--------------------------------------------------------------
-# General
---------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -86,8 +75,7 @@ h6 {
 #header .profile img {
   margin: 15px auto;
   display: block;
-  width: 120px;
-  border: 8px solid #2c2f3f;
+  width: 260px;
 }
 
 #header .profile h1 {
@@ -241,8 +229,9 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center;
-  background-size: cover;
+  background: url("../img/Blue\ Gradient\ Company\ Business\ Profile\ Presentation.jpg") top center;
+  background-size: 100%;
+  
 }
 
 #hero:before {
@@ -1079,11 +1068,11 @@ section {
   color: #f4f6fd;
   font-size: 14px;
   position: fixed;
-  left: 0;
+  left: 100;
   bottom: 0;
   width: 300px;
   z-index: 9999;
-  background: #040b14;
+  background: #37b3ed;
 }
 
 #footer .copyright {
@@ -1091,16 +1080,16 @@ section {
 }
 
 #footer .credits {
-  padding-top: 5px;
+  padding-top: 10px;
   text-align: center;
   font-size: 13px;
   color: #eaebf0;
 }
 
-@media (max-width: 1199px) {
+@media (max-width: 122229px) {
   #footer {
     position: static;
     width: auto;
-    padding-right: 20px 15px;
+    padding-right: 200px 150px;
   }
 }
